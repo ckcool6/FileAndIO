@@ -12,7 +12,7 @@ public class TransFormDemo1 {
         }
         inputStreamReader.close();
 
-        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream("C:\\Users\\lu\\Desktop\\b.txt"),"UTF-8");
+        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream("C:\\Users\\lu\\Desktop\\prop.properties"),"UTF-8");
         outputStreamWriter.write("测试");
         outputStreamWriter.close();
     }
